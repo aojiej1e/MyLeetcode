@@ -1,6 +1,7 @@
 package problem;
 
 import com.google.common.collect.Lists;
+import interview0517.stackQueue.MinStack;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
 import java.util.ArrayList;
@@ -14,12 +15,9 @@ import java.util.Optional;
  */
 public class Test {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.remove(2);
-        System.out.println(list);
+        MinStack minStack = new MinStack();
+        minStack.push(5);
+        minStack.push(6);
+
     }
 }
